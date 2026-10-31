@@ -1,0 +1,32 @@
+1. Open Wireshark.
+2. Select active Wi-Fi interface.
+3. Double-click to start capture.
+4. Open YouTube.
+5. Play a video for 20–30 seconds.
+6. Return to Wireshark.
+7. Click Stop.
+
+FILTERS:
+dns
+quic
+udp
+tls
+tcp
+
+8. Enter dns > Enter.
+9. Observe DNS requests.
+10. Enter quic > Enter.
+11. Observe QUIC packets, if available.
+12. Enter tls > Enter.
+13. Observe encrypted traffic.
+14. Select packets to view details.
+15. Open Statistics > I/O Graphs.
+16. Observe network traffic.
+
+OUTPUT:
+- Source IP
+- Destination IP
+- Protocol
+- Packet length
+- DNS requests
+- Traffic graph
