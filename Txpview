@@ -1,0 +1,30 @@
+1. Open browser.
+2. Search Microsoft Sysinternals TCPView.
+3. Download TCPView from Microsoft.
+4. Extract ZIP file.
+5. Open TCPView.
+6. Run as Administrator if required.
+7. Observe columns:
+
+Process - Application name
+PID - Process ID
+Protocol - TCP / UDP
+Local Address - Your system address
+Local Port - Local port
+Remote Address - Destination address
+Remote Port - Destination port
+State - Connection status
+
+8. Select any active connection.
+9. Note process, PID, protocol, local and remote endpoints.
+10. Right-click connection for available options.
+
+COMMAND PROMPT:
+netstat -ano
+
+11. Match PID with Task Manager:
+    Ctrl + Shift + Esc > Details > PID.
+
+NOTE:
+- TCP has connection states.
+- UDP usually does not show TCP states.
