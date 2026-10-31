@@ -1,0 +1,40 @@
+1. Open Wireshark.
+2. Select your active Wi-Fi interface.
+3. Double-click the interface to start capture.
+4. Open YouTube in browser.
+5. Play any video for 20–30 seconds.
+6. Return to Wireshark.
+7. Click the red Stop button.
+
+DISPLAY FILTERS:
+dns
+udp
+quic
+tls
+tcp
+
+8. Enter dns in filter bar > press Enter.
+9. Observe DNS requests.
+10. Enter quic > press Enter.
+11. Observe QUIC packets, if present.
+12. Enter tls > press Enter.
+13. Observe encrypted TLS traffic.
+14. Select a packet.
+15. Expand packet details in lower panel.
+
+GRAPHS:
+16. Click Statistics > I/O Graphs.
+17. Observe traffic graph.
+
+OUTPUT:
+- Source IP
+- Destination IP
+- Protocol
+- Packet length
+- Time
+- DNS requests
+
+NOTE:
+- If QUIC is not visible, use tls or tcp.
+- HTTPS content is encrypted.
+- Not every packet captured is necessarily from YouTube.
