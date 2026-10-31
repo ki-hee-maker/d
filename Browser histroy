@@ -32,3 +32,28 @@ OUTPUT:
 
 NOTE:
 - Examine only your own browser profile or authorised evidence.
+ new
+
+1. Open Google Chrome.
+2. Press Ctrl + H.
+3. The browser history page will open.
+4. Observe the visited websites.
+5. Check the website title, URL and date/time.
+6. Search for a particular website using the search bar.
+7. Take a screenshot of the browser history.
+
+USING BROWSINGHISTORYVIEW
+
+1. Download and open BrowsingHistoryView by NirSoft.
+2. Run the application.
+3. Select the required browser.
+4. Click OK.
+5. Wait for the history records to load.
+6. Observe URL, Title, Visit Time and Visit Count.
+7. Select records.
+8. Click File → Save Selected Items.
+9. Save the report as HTML or CSV.
+
+RESULT:
+Browser history was successfully examined and
+the visited websites and their details were displayed.
