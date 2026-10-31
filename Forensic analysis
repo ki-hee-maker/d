@@ -34,3 +34,33 @@ OUTPUT:
 NOTE:
 - Do not upload private or confidential files.
 - A clean test file may show 0 detections or no existing report.
+
+new
+
+1. Open Google Chrome.
+2. Visit https://www.virustotal.com/
+3. Click Search.
+4. Enter a file hash or URL.
+5. Click Search.
+6. Wait for the analysis report.
+7. Observe the Detection results.
+8. Check the Security Vendors section.
+9. Observe the number of vendors detecting the file.
+10. Open Details to view file information.
+11. Check the Relations tab if available.
+12. Take a screenshot of the report.
+
+TO UPLOAD A TEST FILE
+
+1. Open VirusTotal.
+2. Click File.
+3. Select Choose file.
+4. Select a harmless test file.
+5. Click Open.
+6. Wait for the scan to finish.
+7. Observe the detection results.
+8. Take a screenshot.
+
+RESULT:
+The file was successfully analysed using VirusTotal
+and its detection results were displayed.
