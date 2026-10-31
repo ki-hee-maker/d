@@ -1,0 +1,49 @@
+BROWSER METHOD:
+
+1. Open https://www.shodan.io/
+2. Login.
+3. Search a public IP:
+   1.1.1.1
+4. Open the result.
+5. Observe:
+   - IP address
+   - Country
+   - Organisation
+   - Open ports
+   - Services
+   - Hostname
+
+KALI METHOD:
+
+1. Open Terminal.
+
+sudo apt update
+sudo apt install whois dnsutils -y
+
+2. Check domain information:
+
+whois kccollege.edu.in
+
+3. Check DNS:
+
+dig kccollege.edu.in
+nslookup kccollege.edu.in
+
+4. For Shodan CLI, install using an isolated environment if available:
+
+python3 -m venv shodan-env
+source shodan-env/bin/activate
+pip install shodan
+
+5. Add your own API key:
+
+shodan init YOUR_API_KEY
+
+6. Search a public IP:
+
+shodan host 1.1.1.1
+
+NOTE:
+- Use only public targets for passive lookup.
+- Never share your API key.
+- Shodan results depend on its database and account access.
