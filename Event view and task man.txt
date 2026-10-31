@@ -1,0 +1,27 @@
+EVENT VIEWER:
+1. Press Win + R.
+2. Type: eventvwr.msc
+3. Enter.
+4. Open Windows Logs > Security.
+5. Click Filter Current Log.
+6. Enter Event IDs:
+   4624 - Successful login
+   4625 - Failed login
+   4688 - Process created
+   4720 - User account created
+7. Click OK.
+8. Open an event > note date, time, user and details.
+
+SYSTEM LOG:
+9. Open Windows Logs > System.
+10. Filter Event ID: 7045 (service installed).
+
+TASK MANAGER:
+11. Press Ctrl + Shift + Esc.
+12. Open Processes > view CPU, Memory and Disk.
+13. Open Performance > view system usage.
+14. Open Details > view process names and PIDs.
+
+EXTRA:
+15. Press Win + R > type resmon > Enter.
+16. Check CPU, Memory, Disk and Network.
