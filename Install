@@ -1,0 +1,49 @@
+
+
+1. Wireshark
+   
+   - https://www.wireshark.org/download.html
+
+2. Npcap
+   
+   - https://npcap.com/
+
+3. theHarvester (Kali Linux)
+   
+   sudo apt install theharvester -y
+
+4. Maltego
+   
+   - https://www.maltego.com/downloads/
+
+5. Autopsy
+   
+   - https://www.autopsy.com/download/
+
+6. TCPView
+   
+   - https://learn.microsoft.com/en-us/sysinternals/
+
+7. RAMMap
+   
+   - https://learn.microsoft.com/en-us/sysinternals/
+
+8. VMMap
+   
+   - https://learn.microsoft.com/en-us/sysinternals/
+
+9. TestDisk / PhotoRec (Kali Linux)
+   
+   sudo apt install testdisk -y
+
+10. FTK Imager (for journal acquisition practical)
+    
+    - https://www.exterro.com/ftk-imager
+
+11. BrowsingHistoryView (optional)
+    
+    - https://www.nirsoft.net/utils/browsing_history_view.html
+
+12. Kali Linux (if not already installed)
+    
+    - https://www.kali.org/get-kali/
