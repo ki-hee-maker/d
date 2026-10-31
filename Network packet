@@ -1,0 +1,36 @@
+1. Open Wireshark.
+2. Select active Wi-Fi interface.
+3. Double-click to start capture.
+4. Open browser and visit any website.
+5. Browse for 20–30 seconds.
+6. Return to Wireshark.
+7. Click Stop.
+
+FILTERS:
+dns - DNS packets
+tcp - TCP packets
+udp - UDP packets
+tls - Encrypted TLS traffic
+http - HTTP packets
+
+8. Type dns in filter bar > Enter.
+9. Select a packet.
+10. Expand Domain Name System.
+11. Note query name and response.
+12. Type tcp > Enter.
+13. Select a packet.
+14. Expand Transmission Control Protocol.
+15. Note source port, destination port and flags.
+
+GRAPHS:
+16. Click Statistics > Protocol Hierarchy.
+17. Observe protocols.
+18. Click Statistics > I/O Graphs.
+19. Observe packet traffic.
+
+OUTPUT:
+- Source and destination IP
+- Protocol
+- Source and destination port
+- Packet length
+- DNS information
