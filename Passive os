@@ -1,0 +1,23 @@
+MALTEGO:
+
+1. Open Maltego.
+2. Login to Community account.
+3. Click New Graph.
+4. From left palette, drag Domain onto graph.
+5. Double-click Domain.
+6. Enter: kccollege.edu.in
+7. Right-click Domain.
+8. Select Run Transform.
+9. Select:
+   Search Web > To Email (domain)
+10. Again right-click Domain.
+11. Select:
+   Search Web > To Phone Numbers
+12. Right-click discovered email.
+13. Select Search Web transform if available.
+14. Observe connected entities in graph.
+15. Take screenshot of graph.
+
+NOTE:
+- Transforms may require login or credits.
+- If a transform is unavailable, show the domain entity and available results.
