@@ -1,0 +1,30 @@
+KALI TERMINAL:
+
+1. Open Terminal.
+2. Type:
+
+sudo apt update
+sudo apt install theharvester -y
+
+3. Check commands:
+
+theHarvester -h
+
+4. Search a public domain:
+
+theHarvester -d kccollege.edu.in -b duckduckgo
+
+5. If that backend is unavailable, check supported backends:
+
+theHarvester -h
+
+6. Use an available backend shown in the help.
+7. Save results:
+
+theHarvester -d kccollege.edu.in -b duckduckgo -f result
+
+OUTPUT:
+- Emails
+- Hosts / subdomains
+- IP addresses
+- Publicly available information
