@@ -1,0 +1,37 @@
+1. Connect a test USB drive.
+2. Open Kali Terminal.
+
+sudo apt update
+sudo apt install testdisk -y
+
+3. List storage devices:
+
+lsblk
+
+4. Start PhotoRec:
+
+sudo photorec
+
+5. Select the correct USB device.
+6. Press Enter.
+7. Select the required partition.
+8. Select File Opt if you want specific file types.
+9. Select Search.
+10. Select filesystem:
+    Other - FAT / NTFS / exFAT
+    ext2/ext3/ext4 - Linux
+11. Select Free to search deleted files.
+12. Select a recovery folder on a DIFFERENT drive.
+13. Press C to confirm destination.
+14. Wait for recovery.
+15. Open recup_dir folders to view recovered files.
+
+OUTPUT:
+- Recovered files
+- File names / file types
+- Recovery location
+
+WARNING:
+- Never select your main Windows disk.
+- Save recovered files to a different drive.
+- Check the device carefully before starting.
