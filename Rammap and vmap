@@ -1,0 +1,33 @@
+RAMMAP:
+
+1. Open Microsoft Sysinternals website.
+2. Download RAMMap.
+3. Extract ZIP.
+4. Run RAMMap as Administrator.
+5. Open Use Counts tab.
+6. Observe physical memory usage.
+7. Open Processes tab.
+8. Observe memory used by processes.
+9. Open File Summary tab.
+10. Observe memory used by files.
+
+VMMAP:
+
+1. Download VMMap from Microsoft Sysinternals.
+2. Extract and open VMMap.
+3. Select a running process, e.g. Notepad.
+4. Click OK.
+5. Observe memory sections:
+   - Heap
+   - Stack
+   - Image
+   - Mapped File
+   - Private Data
+6. Observe Committed and Private Bytes.
+7. Take screenshot.
+
+OUTPUT:
+- RAM usage
+- Process memory
+- Memory allocation
+- Virtual memory details
