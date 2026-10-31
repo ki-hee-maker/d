@@ -1,0 +1,36 @@
+1. Create a harmless text file:
+   Desktop > Right-click > New > Text Document.
+2. Name it: DFMA_test.txt
+3. Open it and type:
+   This is a forensic test file.
+4. Save it.
+
+GENERATE HASH:
+
+1. Open Command Prompt.
+2. Type:
+
+certutil -hashfile "%USERPROFILE%\Desktop\DFMA_test.txt" SHA256
+
+3. Copy the SHA256 hash.
+
+VIRUSTOTAL:
+
+4. Open https://www.virustotal.com/
+5. Select Search.
+6. Paste the SHA256 hash.
+7. Press Enter.
+8. Observe detection results, file details and analysis.
+9. If hash is not found, upload only the harmless test file.
+10. Observe the analysis report.
+
+OUTPUT:
+- SHA256 hash
+- Detection ratio
+- Security vendors
+- File details
+- Analysis results
+
+NOTE:
+- Do not upload private or confidential files.
+- A clean test file may show 0 detections or no existing report.
