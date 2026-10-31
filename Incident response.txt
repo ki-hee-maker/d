@@ -1,0 +1,32 @@
+AUTOPSY:
+
+1. Open Autopsy.
+2. Click New Case.
+3. Enter Case Name: DFMA_Case
+4. Select folder to save case.
+5. Click Finish.
+6. Click Add Data Source.
+7. Select Logical Files.
+8. Browse and select a test evidence folder.
+9. Click Next.
+10. Select available ingest modules.
+11. Click Finish.
+12. Wait for ingest to complete.
+13. Open Data Sources.
+14. Browse the imported files.
+15. Click a file and check its details / metadata.
+16. Open Reports.
+17. Select Generate Report.
+18. Choose available report type.
+19. Generate and save the report.
+
+TEST EVIDENCE:
+- Create a folder named DFMA_Test.
+- Add a text file named evidence.txt.
+- Type: This is test evidence.
+- Select this folder in Autopsy.
+
+OUTPUT:
+- Imported evidence
+- File details and metadata
+- Generated forensic report
