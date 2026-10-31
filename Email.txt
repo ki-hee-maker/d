@@ -1,0 +1,21 @@
+1. Open Gmail.
+2. Open the sample email.
+3. Click 3 dots (beside Reply) > Show original.
+4. Click Copy to clipboard.
+5. Open:
+   https://toolbox.googleapps.com/apps/messageheader/
+6. Paste the complete header > Analyse.
+7. Note: sender, receiver, date, mail server, SPF, DKIM, DMARC and IP.
+
+IP DETAILS:
+8. Copy the IP from the header.
+9. Open https://ipinfo.io/
+10. Paste IP in search.
+11. Note: country, city, ISP and organisation.
+
+KALI:
+whois IP_ADDRESS
+
+WINDOWS:
+nslookup DOMAIN_NAME
+tracert DOMAIN_NAME
